@@ -108,7 +108,7 @@ class SumZeroIntegerError extends Error {
 }
 
 try {
-  console.log(sumIntegers(0, 10)); //
+  console.log(sumIntegers(0, 10)); // A custom error has occurred: You're trying to add zero...
 } catch (error) {
   console.log("A custom error has occurred:", error.message);
   error.printNumbers(); // 0 + 10

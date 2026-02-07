@@ -24,10 +24,10 @@ let a = 5;
 let b = 6;
 
 let mySum1 = new SumConsole();
-mySum1.printSum();
+mySum1.printSum(); // 0 + 0 = 0 (x3)
 
 let mySum2 = new SumConsole(a);
-mySum2.printSum();
+mySum2.printSum(); // 5 + 0 = 5 (x3)
 
 let mySum3 = new SumConsole(a, b);
-mySum3.printSum();
+mySum3.printSum(); // 5 + 6 = 11 (x3)
