@@ -52,7 +52,7 @@ createPassword("12345678"); // Password created!
 // 4. Use table
 let myData = [
   {
-    title: "The Mock Who Sold His Ferrari",
+    title: "The Monk Who Sold His Ferrari",
     autor: "Robin S. Sharma",
     pages: "200",
   },

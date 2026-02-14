@@ -9,9 +9,9 @@ class Books {
   }
 }
 
-let myBook1 = new Books("The Mock Who Sold His Ferrari", "Robin S. Sharma");
+let myBook1 = new Books("The Monk Who Sold His Ferrari", "Robin S. Sharma");
 console.log(myBook1); // Books { title: ..., autor: ... }
-console.log(myBook1.title); // The Mock Who Sold His Ferrari
+console.log(myBook1.title); // The Monk Who Sold His Ferrari
 console.log(myBook1.autor); // Robin S. Sharma
 console.log(typeof myBook1); // object
 
@@ -27,16 +27,16 @@ class Books2 {
   }
 }
 
-let myBook2 = new Books2("The Mock Who Sold His Ferrari", "Robin S. Sharma");
+let myBook2 = new Books2("The Monk Who Sold His Ferrari", "Robin S. Sharma");
 console.log(myBook2); // Books2 { title: ..., autor: ... }
 console.log(myBook2.showInfo); // [Function: showInfo]
 console.log(typeof myBook2); // object
 
 // 3. Show the values of the properties and call the function
-console.log(myBook2.title); // The Mock Who Sold His Ferrari
+console.log(myBook2.title); // The Monk Who Sold His Ferrari
 console.log(myBook2.autor); // Robin S. Sharma
 console.log(myBook2.showInfo); // [Function: showInfo]
-console.log(myBook2.showInfo()); // The Mock Who Sold His Ferrari by Robin S. Sharma
+console.log(myBook2.showInfo()); // The Monk Who Sold His Ferrari by Robin S. Sharma
 
 // 4. Add a static method to the first class
 class Books3 {

@@ -73,17 +73,17 @@ Book.prototype.showInfo = function () {
   return `${this.title} by ${this.autor}`;
 };
 
-let book1 = new Book("The Mock Who Sold His Ferrari", "Robin S. Sharma");
+let book1 = new Book("The Monk Who Sold His Ferrari", "Robin S. Sharma");
 
 console.log(book1); // Book { title: ..., autor: ... }
 console.log(typeof book1); // object
 
 console.log(book1.showInfo); // [Function (anonymous)]
-console.log(book1.showInfo()); // The Mock Who Sold His Ferrari by Robin S. Sharma
+console.log(book1.showInfo()); // The Monk Who Sold His Ferrari by Robin S. Sharma
 
 // 4. Make use of get and set on an object
 let book2 = {
-  title: "The Mock Who Sold His Ferrari",
+  title: "The Monk Who Sold His Ferrari",
   autor: "abc",
   pages: 213,
   getAuthor() {
@@ -94,7 +94,7 @@ let book2 = {
   },
 };
 
-console.log(book2.title); // The Mock Who Sold His Ferrari
+console.log(book2.title); // The Monk Who Sold His Ferrari
 console.log(book2.autor); // abc
 console.log(book2.pages); // 213
 
@@ -107,7 +107,7 @@ console.log(book2.getAuthor()); // Robin S. Sharma
 
 // 5. Use the assign operation on an object
 let bookCore = {
-  title: "The Mock Who Sold His Ferrari",
+  title: "The Monk Who Sold His Ferrari",
   autor: "Robin S. Sharma",
 };
 let bookDetails = {
@@ -115,7 +115,7 @@ let bookDetails = {
   editorial: "Debolsillo",
 };
 
-console.log(bookCore); // { title: 'The Mock Who Sold His Ferrari', autor: 'Robin S. Sharma' }
+console.log(bookCore); // { title: 'The Monk Who Sold His Ferrari', autor: 'Robin S. Sharma' }
 console.log(bookDetails); // { pages: 213, editorial: 'Debolsillo' }
 
 let fullBookInfo = Object.assign(bookCore, bookDetails);

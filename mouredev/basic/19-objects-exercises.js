@@ -3,7 +3,7 @@
 
 // 1. Create an object with 3 properties
 let book = {
-  title: "The Mock Who Sold His Ferrari",
+  title: "The Monk Who Sold His Ferrari",
   autor: "Robin S. Sharma",
   pages: 200,
 };
@@ -12,7 +12,7 @@ console.log(book); // { ... }
 console.log(typeof book); // object
 
 // 2. Access and show its value
-console.log(book.title, typeof book.title); // The Mock Who Sold His Ferrari string
+console.log(book.title, typeof book.title); // The Monk Who Sold His Ferrari string
 console.log(book.autor, typeof book.autor); // Robin S. Sharma string
 console.log(book.pages, typeof book.pages); // 200 number
 
@@ -33,7 +33,7 @@ book.teach = function teach() {
 
 console.log(book); // { ... }
 console.log(book.teach, typeof book.teach); // [Function: teach] function
-book.teach(); // The Mock Who Sold His Ferrari is teaching you
+book.teach(); // The Monk Who Sold His Ferrari is teaching you
 
 // 6. Iterate the properties of the object
 for (let key in book) {
