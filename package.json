@@ -1,0 +1,23 @@
+{
+  "name": "hello-javascript",
+  "version": "1.0.0",
+  "description": "Learning JavaScript from scratch: syntax, courses, playground and code challenges!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdomingu19/hello-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdomingu19/hello-javascript/issues"
+  },
+  "homepage": "https://github.com/jdomingu19/hello-javascript#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}

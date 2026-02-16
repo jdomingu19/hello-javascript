@@ -1,2 +1,5 @@
 # From Visual Studio Code
-.vscode
+.vscode/
+
+# Node.js
+node_modules/
