@@ -1,0 +1,28 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-031.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Syntax</h1>
+    <h2>JavaScript is Case Sensitive</h2>
+
+    <p>Try to change lastName to lastname.</p>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      let lastName = "Doe";
+      let lastname = "Peterson";
+
+      document.getElementById("demo1").innerHTML = "John" + " " + lastName;
+      document.getElementById("demo2").innerHTML = "John" + " " + lastname;
+    </script>
+  </body>
+</html>
