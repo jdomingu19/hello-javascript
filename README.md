@@ -12,11 +12,35 @@ Welcome to hello-javascript! This repository is a structured path to explore Jav
 
 ## Repository Content
 
-...
+### [w3schools/](./w3schools/)
+
+- Introductory HTML, CSS, and JavaScript demos inspired by W3Schools tutorials.
+
+- Simple examples to practice DOM manipulation and inline scripting.
+
+- Foundation exercises to connect JavaScript with web standards.
+
+### [mouredev/](./mouredev/)
+
+- Course exercises from Intermediate JavaScript by Mouredev.
+
+- Topics include debugging, regex, testing, and structured practice.
+
+- Step‑by‑step progression with documented code samples and commit history.
+
+### [playground/](./playground/)
+
+- Experimental space for exploring advanced JavaScript concepts.
+
+- Includes prototype chains, class inheritance, operator behavior, and DOM manipulation.
 
 ## Repository Goals
 
-...
+- Build a strong foundation by exploring syntax, core concepts, and practical exercises to fully understand the language.
+
+- Maintain a structured, reproducible workflow with clear documentation, commit discipline, and accessible examples.
+
+- Use this repository as a stepping stone to transition into TypeScript, Node.js, React, React Native, and Expo, aiming to become a mobile developer for iOS and Android.
 
 ## License
 
