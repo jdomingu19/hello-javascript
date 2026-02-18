@@ -1,0 +1,28 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-069.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h2>JavaScript Hoisting</h2>
+
+    <p>With <b>let</b>, you cannot use a variable before it is declared.</p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      try {
+        carName = "McLaren";
+        let carName = "Ford";
+      } catch (error) {
+        document.getElementById("demo").innerHTML = error;
+        // ReferenceError: Cannot access 'carName' before initialization
+      }
+    </script>
+  </body>
+</html>

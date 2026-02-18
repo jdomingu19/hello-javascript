@@ -1,0 +1,38 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-066.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h2>JavaScript let</h2>
+
+    <p>
+      With <code>let</code>, redeclaring a variable in the same block is NOT
+      allowed:
+    </p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      var x = 2; // Allowed
+      // let x = 3; // Not allowed
+
+      {
+        let x = 2; // Allowed
+        // let x = 3; // Not allowed
+      }
+
+      {
+        let x = 2; // Allowed
+        // var x = 3; // Not allowed
+      }
+
+      document.getElementById("demo").innerHTML = "The value of x is: " + x;
+    </script>
+  </body>
+</html>

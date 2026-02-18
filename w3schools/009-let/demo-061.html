@@ -1,0 +1,26 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-061.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>Cannot be Redeclared</h1>
+
+    <p>Variables defined with <code>let</code> can not be redeclared.</p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      let x = "John Doe";
+
+      // let x = 0; // Cannot redeclare block-scoped variable 'x'.
+
+      document.getElementById("demo").innerHTML = "The value of x is: " + x;
+    </script>
+  </body>
+</html>

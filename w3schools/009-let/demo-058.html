@@ -1,0 +1,32 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-058.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>Block Scope</h1>
+
+    <p>
+      Variables declared inside a { } block cannot be accessed from outside the
+      block:
+    </p>
+
+    <p id="demo"></p>
+
+    <p>Uncaught ReferenceError: x is not defined</p>
+
+    <!-- JavaScript Code -->
+    <script>
+      {
+        let x = 2;
+      }
+
+      document.getElementById("demo").innerHTML = "The value of x is: " + x;
+      console.log(x); // Uncaught ReferenceError: x is not defined
+    </script>
+  </body>
+</html>
