@@ -1,0 +1,80 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-082.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h2>JavaScript has 8 Datatypes</h2>
+
+    <p>A JavaScript variable can hold 8 types of data:</p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      // String
+      let color = "Black";
+      let lastName = "Domínguez";
+
+      // Number
+      let length = 16;
+      let weight = 75.35;
+
+      // BigInt
+      let x = 1234567890123456789012345n;
+      let y = BigInt(1234567890123456789012345);
+
+      // Boolean
+      let a = true;
+      let b = false;
+
+      // Object
+      const person = {
+        name: "Jesús",
+        age: 21,
+        alias: "@jdomingu19",
+      };
+
+      // Array object
+      const cars = ["McLaren", "Ford", "BMW"];
+
+      // Date object
+      const date = new Date("2026-02-19");
+
+      // Undefined
+      let c;
+      let d;
+
+      // Null
+      let e = null;
+      let f = null;
+
+      // Symbol
+      const g = Symbol();
+      const h = Symbol();
+
+      document.getElementById("demo").innerHTML =
+        `color: ${color}, typeof color: ${typeof color}, color constructor: ${color.__proto__.constructor.name}<br>` +
+        `lastName: ${lastName}, typeof lastName: ${typeof lastName}, lastName constructor: ${lastName.__proto__.constructor.name}<br>` +
+        `length: ${length}, typeof length: ${typeof length}, length constructor: ${length.__proto__.constructor.name}<br>` +
+        `weight: ${weight}, typeof weight: ${typeof weight}, weight constructor: ${weight.__proto__.constructor.name}<br>` +
+        `x: ${x}, typeof x: ${typeof x}, x constructor: ${x.__proto__.constructor.name}<br>` +
+        `y: ${y}, typeof y: ${typeof y}, y constructor: ${y.__proto__.constructor.name}<br>` +
+        `a: ${a}, typeof a: ${typeof a}, a constructor: ${a.__proto__.constructor.name}<br>` +
+        `b: ${b}, typeof b: ${typeof b}, b constructor: ${b.__proto__.constructor.name}<br>` +
+        `person: ${person}, typeof person: ${typeof person}, person constructor: ${person.__proto__.constructor.name}<br>` +
+        `cars: ${cars}, typeof cars: ${typeof cars}, cars constructor: ${cars.__proto__.constructor.name}<br>` +
+        `date: ${date}, typeof date: ${typeof date}, date constructor: ${date.__proto__.constructor.name}<br>` +
+        `c: ${c}, typeof c: ${typeof c}<br>` +
+        `d: ${d}, typeof d: ${typeof d}<br>` +
+        `e: ${e}, typeof e: ${typeof e}<br>` +
+        `f: ${f}, typeof f: ${typeof f}<br>` +
+        `g: ${g.toString()}, typeof g: ${typeof g}, g constructor: ${g.__proto__.constructor.name}<br>` +
+        `h: ${h.toString()}, typeof h: ${typeof h}, h constructor: ${h.__proto__.constructor.name}<br>`;
+    </script>
+  </body>
+</html>
