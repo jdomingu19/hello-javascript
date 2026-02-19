@@ -22,11 +22,11 @@ Welcome to hello-javascript! This repository is a structured path to explore Jav
 
 ### [mouredev/](./mouredev/)
 
-- Course exercises from Intermediate JavaScript by Mouredev.
+- Comprehensive JavaScript fundamentals and intermediate exercises inspired by Mouredev’s course material.
 
-- Topics include debugging, regex, testing, and structured practice.
+- Covers a wide range of topics: variables, datatypes, operators, strings, conditionals, arrays, sets, maps, loops, functions, objects, classes, modules, error handling, DOM, debugging, regex, testing, and asynchronous programming.
 
-- Step‑by‑step progression with documented code samples and commit history.
+- Organized step‑by‑step with progressive examples, structured practice files, and documented exercises for consistent learning.
 
 ### [playground/](./playground/)
 
