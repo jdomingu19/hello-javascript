@@ -1,0 +1,40 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-079.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h2>Redeclaring</h2>
+
+    <p>
+      Redeclaring a variable with <code>const</code>, in another scope, or in
+      another block, is allowed:
+    </p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      const x = 2; // Allowed
+      console.log(x); // 2
+
+      {
+        const x = 3; // Allowed
+        console.log(x); // 3
+      }
+
+      {
+        const x = 4; // Allowed
+        console.log(x); // 4
+      }
+
+      // Here x is 2
+      document.getElementById("demo").innerHTML = "The value of x is: " + x;
+      console.log(x); // 2
+    </script>
+  </body>
+</html>

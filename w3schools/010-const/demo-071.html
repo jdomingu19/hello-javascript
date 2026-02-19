@@ -1,0 +1,32 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-071.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h2>JavaScript const</h2>
+
+    <p>Declaring a constant array does NOT make the elements unchangeable:</p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      // Create an Array:
+      const cars = ["McLaren", "Ford", "Ferrari"];
+
+      // Change an element:
+      cars[2] = "Toyota";
+
+      // Add an element:
+      cars.push("Mercedes");
+
+      // Display the Array:
+      document.getElementById("demo").innerHTML = cars;
+    </script>
+  </body>
+</html>

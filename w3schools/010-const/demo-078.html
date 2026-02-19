@@ -1,0 +1,41 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-078.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h2>Redeclaring</h2>
+
+    <p>
+      Reassigning an existing <code>const</code> variable, in the same scope, is
+      not allowed:
+    </p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      const x = 2; // Allowed
+      // x = 2; // Not allowed
+      // var x = 2; // Not allowed
+      // let x = 2; // Not allowed
+      // const x = 2; // Not allowed
+
+      {
+        const x = 2; // Allowed
+        // x = 2; // Not allowed
+        // var x = 2; // Not allowed
+        // let x = 2; // Not allowed
+        // const x = 2; // Not allowed
+      }
+
+      // Here x is 2
+      document.getElementById("demo").innerHTML = "The value of x is: " + x;
+      console.log(x); // 2
+    </script>
+  </body>
+</html>

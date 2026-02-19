@@ -1,0 +1,31 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-076.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h2>Redeclaring</h2>
+
+    <p>
+      Redeclaring a JavaScript <code>var</code> variable is allowed anywhere in
+      a program:
+    </p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      var x = 2; // Allowed
+      var x = 3; // Allowed
+      x = 4; // Allowed
+
+      // Here x is 4
+      document.getElementById("demo").innerHTML = "The value of x is: " + x;
+      console.log(x); // 4
+    </script>
+  </body>
+</html>
