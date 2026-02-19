@@ -22,7 +22,7 @@ Welcome to hello-javascript! This repository is a structured path to explore Jav
 
 ### [mouredev/](./mouredev/)
 
-- Comprehensive JavaScript fundamentals and intermediate exercises fallowing Mouredev’s course material.
+- Comprehensive JavaScript fundamentals and intermediate exercises following Mouredev’s course material.
 
 - Covers a wide range of topics: variables, datatypes, operators, strings, conditionals, arrays, sets, maps, loops, functions, objects, classes, modules, error handling, DOM, debugging, regex, testing, and asynchronous programming.
 
