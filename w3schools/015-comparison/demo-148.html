@@ -1,0 +1,40 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-148.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Comparison</h1>
+    <h2>The !== (strict unequal) Operator</h2>
+
+    <p>
+      Comparison operators always return <code>true</code> or
+      <code>false</code>.
+    </p>
+
+    <p>Not equal value or not equal type:</p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      let x = 5;
+
+      document.getElementById("demo").innerHTML =
+        "x = " +
+        x +
+        "<br>x !== 5 : " +
+        (x !== 5) +
+        "<br>x !== '5' : " +
+        (x !== "5") +
+        "<br>x !== 8 : " +
+        (x !== 8) +
+        "<br>x !== '8' : " +
+        (x !== "8");
+    </script>
+  </body>
+</html>
