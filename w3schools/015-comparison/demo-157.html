@@ -1,0 +1,35 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-157.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h2>JavaScript Comparisons</h2>
+
+    <p>Input your age and click the button:</p>
+
+    <input type="text" name="age" id="age" value="18" />
+
+    <button type="button" onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      function myFunction() {
+        let voteable;
+        let age = Number(document.getElementById("age").value);
+        if (isNaN(age)) {
+          voteable = "Input is not a number.";
+        } else {
+          voteable = age < 18 ? "Too young to vote." : "Old enough to vote.";
+        }
+        document.getElementById("demo").innerHTML = voteable;
+      }
+    </script>
+  </body>
+</html>

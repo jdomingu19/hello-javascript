@@ -1,0 +1,36 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-153.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Comparison</h1>
+
+    <p>
+      Comparison operators always return <code>true</code> or
+      <code>false</code>.
+    </p>
+
+    <p>
+      Comparison operators can be used in conditional statements to compare
+      values and take action depending on the result:
+    </p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      let age = 15;
+      let text = "";
+
+      if (age < 18) text = "Too young to buy alcohol";
+
+      document.getElementById("demo").innerHTML =
+        "age : " + age + "<br> text : " + text;
+    </script>
+  </body>
+</html>

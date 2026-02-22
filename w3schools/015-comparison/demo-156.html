@@ -1,0 +1,43 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-156.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>Comparing Different Types</h1>
+
+    <p>Comparing data of different types may give unexpected results.</p>
+
+    <p>
+      Comparison operators always return <code>true</code> or
+      <code>false</code>.
+    </p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      document.getElementById("demo").innerHTML =
+        "2 < 12 : " +
+        (2 < 12) +
+        "<br>2 < '12' : " +
+        (2 < "12") +
+        "<br>2 < 'John' : " +
+        (2 < "John") +
+        "<br>2 > 'John' : " +
+        (2 > "John") +
+        "<br>2 == 'John' : " +
+        (2 == "John") +
+        "<br>'2' < '12' : " +
+        ("2" < "12") +
+        "<br>'2' > '12' : " +
+        ("2" > "12") +
+        "<br>'2' == '12' : " +
+        ("2" == "12");
+    </script>
+  </body>
+</html>
