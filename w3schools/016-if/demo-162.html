@@ -1,0 +1,33 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-162.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Nested if</h1>
+
+    <p>Nested if statements can make your code more complex.</p>
+
+    <p>A better solution is to use the logical AND operator:</p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      let age = 16;
+      let country = "USA";
+      let text = "You can not drive";
+
+      if (country == "USA" && age >= 16) {
+        text = "You can drive!";
+      }
+
+      document.getElementById("demo").innerHTML =
+        "age : " + age + "<br>country : " + country + "<br>text : " + text;
+    </script>
+  </body>
+</html>

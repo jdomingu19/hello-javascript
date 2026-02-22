@@ -1,0 +1,24 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-158.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript if</h1>
+
+    <p>Display "Good day!" if the hour is less than 18:00:</p>
+
+    <p id="demo">Good Evening!</p>
+
+    <!-- JavaScript Code -->
+    <script>
+      if (new Date().getHours() < 18) {
+        document.getElementById("demo").innerHTML = "Good Day!";
+      }
+    </script>
+  </body>
+</html>

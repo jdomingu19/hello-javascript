@@ -1,0 +1,33 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-160.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript if</h1>
+
+    <p>
+      Use the JavaScript if statement to execute a block of code when a
+      condition is true.
+    </p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      let age = 16;
+      let text = "You can not drive";
+
+      if (age >= 18) {
+        text = "You can drive!";
+      }
+
+      document.getElementById("demo").innerHTML =
+        "age : " + age + "<br>text : " + text;
+    </script>
+  </body>
+</html>
