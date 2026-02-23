@@ -1,0 +1,37 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-163.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript if ... else</h1>
+
+    <p>
+      Use the else statement to specify a block of code to be executed if a
+      condition is false.
+    </p>
+
+    <p>A time-based greeting:</p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      const hour = new Date().getHours();
+      let greeting;
+
+      if (hour < 18) {
+        greeting = "Good day!";
+      } else {
+        greeting = "Good evening!";
+      }
+
+      document.getElementById("demo").innerHTML =
+        "hour : " + hour + "<br>greeting : " + greeting;
+    </script>
+  </body>
+</html>
