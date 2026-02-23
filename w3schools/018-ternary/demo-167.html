@@ -1,0 +1,42 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-167.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Ternary Operator</h1>
+
+    <p>
+      The conditional operator is a shorthand for writing conditional if...else
+      statements.
+    </p>
+
+    <p>It is called a ternary operator because it takes three operands.</p>
+
+    <p><code>(condition) ? expression1 : expression2</code></p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      let price = 10;
+      let isMember = true;
+      let discount = isMember ? 0.2 : 0;
+      let total = price - price * discount;
+
+      document.getElementById("demo").innerHTML =
+        "price : " +
+        price +
+        "<br>isMember : " +
+        isMember +
+        "<br>discount : " +
+        discount +
+        "<br>total : " +
+        total;
+    </script>
+  </body>
+</html>
