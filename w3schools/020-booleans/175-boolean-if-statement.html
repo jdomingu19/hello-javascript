@@ -1,0 +1,39 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 020 Booleans, 175 Boolean If Statement -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>175 Boolean If Statement | W3Schools | Hello, JavaScript!</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Boolean</h1>
+    <p>
+      Booleans are extensively used in <b>if statements</b> to determine the
+      code blocks to execute based on the logic.
+    </p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      let dateHours = new Date().getHours();
+
+      if (dateHours < 18) {
+        greeting = "Good day!";
+      } else {
+        greeting = "Good evening!";
+      }
+
+      document.getElementById("demo").innerHTML =
+        "dateHours &#8594 " +
+        dateHours +
+        "<br>dateHours < 18 &#8594 " +
+        (dateHours < 18) +
+        "<br>greeting &#8594 " +
+        greeting;
+    </script>
+  </body>
+</html>

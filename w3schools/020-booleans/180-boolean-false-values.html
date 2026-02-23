@@ -1,0 +1,39 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 020 Booleans, 180 Boolean False Values -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>180 Boolean False Values | W3Schools | Hello, JavaScript!</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Booleans</h1>
+
+    <p>Everything without a "Value" is <code>true</code>:</p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      document.getElementById("demo").innerHTML =
+        "0 is &#8594 " +
+        Boolean(0) +
+        "<br>-0 is &#8594 " +
+        Boolean(-0) +
+        "<br>'' is &#8594 " +
+        Boolean("") +
+        "<br>undefined is &#8594 " +
+        Boolean(undefined) +
+        "<br>null is &#8594 " +
+        Boolean(null) +
+        "<br>NaN is &#8594 " +
+        Boolean(NaN) +
+        "<br>false is &#8594 " +
+        Boolean(false) +
+        "<br>10 / 'abc' is &#8594 " +
+        Boolean(10 / "abc");
+    </script>
+  </body>
+</html>
