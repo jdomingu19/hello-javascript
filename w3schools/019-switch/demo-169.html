@@ -1,0 +1,48 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-169.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Control Flow</h1>
+    <h2>The switch Statement</h2>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      let day;
+      let date = new Date().getDay();
+
+      switch (date) {
+        case 0:
+          day = "Sunday";
+          break;
+        case 1:
+          day = "Monday";
+          break;
+        case 2:
+          day = "Tuesday";
+          break;
+        case 3:
+          day = "Wednesday";
+          break;
+        case 4:
+          day = "Thursday";
+          break;
+        case 5:
+          day = "Friday";
+          break;
+        case 6:
+          day = "Saturday";
+      }
+
+      document.getElementById("demo").innerHTML =
+        "Date().getDay() : " + date + "<br>Today is : " + day;
+    </script>
+  </body>
+</html>

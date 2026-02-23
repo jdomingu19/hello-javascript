@@ -1,0 +1,44 @@
+<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, JavaScript! | W3Schools | demo-172.html</title>
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript switch Controls</h1>
+
+    <h2>Common Code Blocks</h2>
+
+    <p>
+      In this example, case 4 and 5 share the same code block, and 0 and 6 share
+      another code block:
+    </p>
+
+    <p id="demo"></p>
+
+    <!-- JavaScript Code -->
+    <script>
+      let text;
+      let day = new Date().getDay();
+
+      switch (day) {
+        case 4:
+        case 5:
+          text = "Soon it is Weekend";
+          break;
+        case 0:
+        case 6:
+          text = "It is Weekend";
+          break;
+        default:
+          text = "Looking forward to the Weekend";
+      }
+
+      document.getElementById("demo").innerHTML =
+        "Date().getDay() : " + day + "<br>Text : " + text;
+    </script>
+  </body>
+</html>
