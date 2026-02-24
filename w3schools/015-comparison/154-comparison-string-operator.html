@@ -1,15 +1,19 @@
-<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 015 Comparison, 154 Comparison String Operator -->
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello, JavaScript! | W3Schools | demo-147.html</title>
+    <title>
+      154 Comparison String Operator | W3Schools | Hello, JavaScript!
+    </title>
   </head>
   <body>
     <!-- HTML Elements -->
-    <h1>JavaScript Comparison</h1>
-    <h2>The != (not equal) Operator</h2>
+    <h1>JavaScript String Operators</h1>
+
+    <p>All conditional operators can be used on both numbers and strings.</p>
 
     <p>
       Comparison operators always return <code>true</code> or
@@ -20,19 +24,11 @@
 
     <!-- JavaScript Code -->
     <script>
-      let x = 5;
-
+      let text1 = "A";
+      let text2 = "B";
+      let result = text1 < text2;
       document.getElementById("demo").innerHTML =
-        "x = " +
-        x +
-        "<br>x != 5 : " +
-        (x != 5) +
-        "<br>x != '5' : " +
-        (x != "5") +
-        "<br>x != 8 : " +
-        (x != 8) +
-        "<br>x != '8' : " +
-        (x != "8");
+        "Is A less than B? : " + result;
     </script>
   </body>
 </html>
