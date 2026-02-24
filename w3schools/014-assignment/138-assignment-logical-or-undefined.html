@@ -1,25 +1,28 @@
-<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 014 Assignment, 138 Assignment Logical OR Undefined -->
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello, JavaScript! | W3Schools | demo-130.html</title>
+    <title>
+      138 Assignment Logical OR Undefined | W3Schools | Hello, JavaScript!
+    </title>
   </head>
   <body>
     <!-- HTML Elements -->
     <h1>JavaScript Assignments</h1>
-    <h2>Logical AND Assignment</h2>
-    <h3>The &&= Operator</h3>
+    <h2>Logical OR Assignment</h2>
+    <h3>The ||= Operator</h3>
 
-    <p>If the first value is true, the second value is assigned.</p>
+    <p>If the first value is false, the second value is assigned:</p>
 
     <p id="demo"></p>
 
     <!-- JavaScript Code -->
     <script>
-      let x = false;
-      let y = (x &&= 10); // false
+      let x = undefined;
+      let y = (x ||= 10); // 10
       document.getElementById("demo").innerHTML =
         "Value of <code>y</code> is: " + y;
     </script>
