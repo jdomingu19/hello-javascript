@@ -1,22 +1,26 @@
-<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 013 Arithmetic, 116 Arithmetic Parentheses Precedence -->
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello, JavaScript! | W3Schools | demo-115.html</title>
+    <title>
+      116 Arithmetic Parentheses Precedence | W3Schools | Hello, JavaScript!
+    </title>
   </head>
   <body>
     <!-- HTML Elements -->
     <h1>JavaScript Arithmetic</h1>
     <h2>Operator Precedence</h2>
     <p>Multiplication has precedence over addition.</p>
+    <p>But parenthesis has precedence over multiplication.</p>
 
     <p id="demo"></p>
 
     <!-- JavaScript Code -->
     <script>
-      document.getElementById("demo").innerHTML = 100 + 50 * 3; // 100 + 150 = 250
+      document.getElementById("demo").innerHTML = (100 + 50) * 3; // 150 + 3 = 450
     </script>
   </body>
 </html>
