@@ -1,10 +1,11 @@
-<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 018 Ternary, 166 Ternary Age Condition -->
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello, JavaScript! | W3Schools | demo-168.html</title>
+    <title>166 Ternary Age Condition | W3Schools | Hello, JavaScript!</title>
   </head>
   <body>
     <!-- HTML Elements -->
@@ -23,20 +24,11 @@
 
     <!-- JavaScript Code -->
     <script>
-      let price = 10;
-      let isMember = false;
-      let discount = isMember ? 0.2 : 0;
-      let total = price - price * discount;
+      let age = 16;
+      let text = age < 18 ? "Minor" : "Adult";
 
       document.getElementById("demo").innerHTML =
-        "price : " +
-        price +
-        "<br>isMember : " +
-        isMember +
-        "<br>discount : " +
-        discount +
-        "<br>total : " +
-        total;
+        "age : " + age + "<br>text : " + text;
     </script>
   </body>
 </html>
