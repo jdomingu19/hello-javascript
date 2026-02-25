@@ -1,18 +1,17 @@
-<!-- Hello, JavaScript! - W3Schools - @jdomingu19 -->
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 016 If, 161 If Nested Condition -->
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello, JavaScript! | W3Schools | demo-162.html</title>
+    <title>161 If Nested Condition | W3Schools | Hello, JavaScript!</title>
   </head>
   <body>
     <!-- HTML Elements -->
     <h1>JavaScript Nested if</h1>
 
-    <p>Nested if statements can make your code more complex.</p>
-
-    <p>A better solution is to use the logical AND operator:</p>
+    <p>You can use an if statement inside another if statement:</p>
 
     <p id="demo"></p>
 
@@ -22,8 +21,10 @@
       let country = "USA";
       let text = "You can not drive";
 
-      if (country == "USA" && age >= 16) {
-        text = "You can drive!";
+      if (country == "USA") {
+        if (age >= 16) {
+          text = "You can drive!";
+        }
       }
 
       document.getElementById("demo").innerHTML =
