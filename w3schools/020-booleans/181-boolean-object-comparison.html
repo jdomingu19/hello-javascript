@@ -1,0 +1,57 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 020 Booleans, 181 Boolean Object Comparison -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      181 Boolean Object Comparison | W3Schools | Hello, JavaScript!
+    </title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Booleans</h1>
+
+    <p>Booleans and Boolean objects cannot be safely compared:</p>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      // x is a boolean
+      let x = true;
+
+      // y is an object
+      let y = new Boolean(true);
+
+      document.getElementById("demo").innerHTML =
+        "<code>x</code> is &#8594 " +
+        x +
+        "<br><code>y</code> is &#8594 " +
+        y +
+        "<br><code>typeof x</code> is &#8594 " +
+        typeof x +
+        "<br><code>typeof y</code> is &#8594 " +
+        typeof y +
+        "<br><code>x == y</code> is &#8594 " +
+        (x == y) +
+        "<br><code>x === y</code> is &#8594 " +
+        (x === y) +
+        "<br><code>x.__proto__.constructor.name</code> is &#8594 " +
+        x.__proto__.constructor.name +
+        "<br><code>y.__proto__.constructor.name</code> is &#8594 " +
+        y.__proto__.constructor.name;
+    </script>
+  </body>
+</html>
