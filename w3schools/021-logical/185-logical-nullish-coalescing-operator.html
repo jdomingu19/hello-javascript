@@ -1,0 +1,52 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 021 Logical, 185 Logical Nullish Coalescing Operator -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      185 Logical Nullish Coalescing Operator | W3Schools | Hello, JavaScript!
+    </title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Operators</h1>
+
+    <h2>The ?? Operator</h2>
+
+    <p>
+      The ?? operator returns the right operand when the left operand is nullish
+      (null or undefined), otherwise it returns the left operand.
+    </p>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      let name = null;
+      let text = "missing";
+      let result = name ?? text;
+
+      document.getElementById("demo").innerHTML =
+        "<code>name</code> is &#8594 " +
+          name +
+          "<br><code>text</code> is &#8594 " +
+          text +
+          "<br><code>result</code> is &#8594 " +
+          result +
+          "<br><code>name ?? text</code> is &#8594 " +
+          name ?? text;
+    </script>
+  </body>
+</html>
