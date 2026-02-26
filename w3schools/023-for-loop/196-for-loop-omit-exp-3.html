@@ -1,0 +1,52 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 023 For Loop, 196 For Loop Omit Exp 3 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>196 For Loop Omit Exp 3 | W3Schools | Hello, JavaScript!</title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Loops</h1>
+    <h2>The for Loop</h2>
+
+    <p><code>exp 3</code> is optional.</p>
+
+    <p>
+      <code>exp 3</code> can be omitted (e.g. if you increment the value inside
+      the loop):
+    </p>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      const cars = ["McLaren", "Ford", "BMW", "Ferrari"];
+      let text = "";
+
+      let i = 0;
+      for (; i < cars.length; ) {
+        text += cars[i] + "<br>";
+        i++;
+      }
+
+      document.getElementById("demo").innerHTML =
+        "<code>cars</code> is &#8594 " +
+        cars +
+        "<br><code>text</code> is &#8594 <br> " +
+        text;
+    </script>
+  </body>
+</html>

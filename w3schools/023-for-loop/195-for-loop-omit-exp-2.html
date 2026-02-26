@@ -1,0 +1,45 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 023 For Loop, 195 For Loop Omit Exp 2 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>195 For Loop Omit Exp 2 | W3Schools | Hello, JavaScript!</title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Loops</h1>
+    <h2>The for Loop</h2>
+
+    <p><code>exp 2</code> is optional.</p>
+
+    <p>
+      If you omit <code>exp 2</code>, you must provide a
+      <code>break</code> inside the loop.
+    </p>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      let text = "";
+      for (let i = 0; ; i++) {
+        text += "The value of <code>i</code> is &#8594 " + i + "<br>";
+        if (i == 9) break;
+      }
+
+      document.getElementById("demo").innerHTML = text;
+    </script>
+  </body>
+</html>
