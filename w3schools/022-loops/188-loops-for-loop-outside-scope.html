@@ -1,0 +1,45 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 022 Loops, 188 Loops For Loop Outside Scope -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      188 Loops For Loop Outside Scope | W3Schools | Hello, JavaScript!
+    </title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Scope</h1>
+    <h2>The for Loop Outside Scope</h2>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      let i = 5;
+
+      document.getElementById("demo").innerHTML +=
+        "(Outside) The value of <code>i</code> is &#8594 " + i + "<br>";
+
+      let text = "";
+      for (i = 0; i < 10; i++) {
+        text += "(for) The value of <code>i</code> is &#8594 " + i + "<br>";
+      }
+
+      document.getElementById("demo").innerHTML +=
+        text + "(Outside) The value of <code>i</code> is &#8594 " + i;
+    </script>
+  </body>
+</html>
