@@ -1,0 +1,67 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 024 While Loop, 201 While Loop Comparing For Loop -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      201 While Loop Comparing For Loop | W3Schools | Hello, JavaScript!
+    </title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Loops</h1>
+    <h2>Comparing For and While</h2>
+
+    <p>
+      A while loop is much the same as a for loop, with statement 1 and
+      statement 3 omitted.
+    </p>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      // car array
+      const cars = ["McLaren", "Ford", "BMW", "Ferrari"];
+
+      document.getElementById("demo").innerHTML =
+        "<code>cars</code> is &#8594 " + cars + "<br>";
+
+      // for loop
+      let text = "";
+      let i = 0;
+
+      for (; i < cars.length; ) {
+        text += "(for loop) " + cars[i] + "<br>";
+        i++;
+      }
+
+      document.getElementById("demo").innerHTML +=
+        "<br><code>text</code> is &#8594 <br> " + text;
+
+      // while loop
+      text = "";
+      i = 0;
+
+      while (i < cars.length) {
+        text += "(while loop) " + cars[i] + "<br>";
+        i++;
+      }
+
+      document.getElementById("demo").innerHTML +=
+        "<br><code>text</code> is &#8594 <br> " + text;
+    </script>
+  </body>
+</html>
