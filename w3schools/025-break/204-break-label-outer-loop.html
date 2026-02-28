@@ -1,0 +1,50 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 025 Break, 204 Break Label Outer Loop -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>204 Break Label Outer Loop | W3Schools | Hello, JavaScript!</title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Label</h1>
+    <h2>The break Statement in a Loop</h2>
+
+    <p>Break the outer loop (loop1) when the loop counter is 3:</p>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      let text = "";
+
+      loop1: for (let j = 0; j < 5; j++) {
+        loop2: for (let i = 0; i < 5; i++) {
+          if (i === 3) {
+            break loop1;
+          }
+          text +=
+            "<code>j</code> is &#8594 " +
+            j +
+            " ; <code>i</code> is &#8594 " +
+            i +
+            "<br>";
+        }
+      }
+
+      document.getElementById("demo").innerHTML = text;
+    </script>
+  </body>
+</html>
