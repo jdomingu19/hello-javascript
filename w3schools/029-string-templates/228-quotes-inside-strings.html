@@ -1,0 +1,44 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 029 String Template, 228 Quotes Inside Strings -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>228 Quotes Inside Strings | W3Schools | Hello, JavaScript!</title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h2>JavaScript Template Strings</h2>
+
+    <h2>Quotes Inside Strings</h2>
+
+    <p>
+      <b>With backticks</b> <code>``</code> you can use both single
+      <code>'</code> and double quotes <code>"</code> inside a string:
+    </p>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      let text = `He's often called "@jdomingu19"`;
+
+      document.getElementById("demo").innerHTML =
+        "<code>text</code> is &#8594 " +
+        text +
+        "<br><code>typeof text</code> is &#8594 " +
+        typeof text;
+    </script>
+  </body>
+</html>
