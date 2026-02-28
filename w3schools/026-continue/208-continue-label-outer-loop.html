@@ -1,0 +1,55 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 026 Continue, 208 Continue Label Outer Loop -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      208 Continue Label Outer Loop | W3Schools | Hello, JavaScript!
+    </title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Label</h1>
+    <h2>The continue Statement</h2>
+
+    <p>
+      Continue to outer loop (<code>loop1</code>) when the inner loop
+      (<code>loop2</code>) counter is <b>3</b>:
+    </p>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      let text = "";
+
+      loop1: for (let j = 0; j < 5; j++) {
+        loop2: for (let i = 0; i < 5; i++) {
+          if (i === 3) {
+            continue loop1;
+          }
+          text +=
+            "<code>j</code> is &#8594 " +
+            j +
+            " ; <code>i</code> is &#8594 " +
+            i +
+            "<br>";
+        }
+      }
+
+      document.getElementById("demo").innerHTML = text;
+    </script>
+  </body>
+</html>

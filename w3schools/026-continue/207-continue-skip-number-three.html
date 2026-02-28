@@ -1,0 +1,46 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 026 Continue, 207 Continue Skip Number Three -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      207 Continue Skip Number Three | W3Schools | Hello, JavaScript!
+    </title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Loops</h1>
+    <h2>The continue Statement</h2>
+
+    <p>Skip the iteration step when i equals 3.</p>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      let text = "";
+
+      for (let i = 1; i < 10; i++) {
+        if (i === 3) {
+          continue;
+        }
+        text += i + " * 10 = " + i * 10 + "<br>";
+      }
+
+      document.getElementById("demo").innerHTML =
+        "<code>text</code> is &#8594 <br>" + text;
+    </script>
+  </body>
+</html>
