@@ -1,0 +1,81 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 028 Strings, 226 Strings As Objects -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>226 Strings As Objects | W3Schools | Hello, JavaScript!</title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Strings as Objects</h1>
+
+    <p>JavaScript strings are primitive values, created from literals.</p>
+
+    <p>
+      Strings can also be defined as objects with the keyword
+      <code>new</code>.
+    </p>
+
+    <p>
+      Comparing two JavaScript objects <b>always</b> returns <code>false</code>:
+    </p>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      // x is a string
+      let x = "John";
+
+      // y is an object
+      let y = new String("John");
+
+      // z is an object
+      let z = new String("John");
+
+      document.getElementById("demo").innerHTML =
+        "<code>x</code> is &#8594 " +
+        x +
+        "<br><code>y</code> is &#8594 " +
+        y +
+        "<br><code>z</code> is &#8594 " +
+        z +
+        "<br><br><code>typeof x</code> is &#8594 " +
+        typeof x +
+        "<br><code>typeof y</code> is &#8594 " +
+        typeof y +
+        "<br><code>typeof z</code> is &#8594 " +
+        typeof z +
+        "<br><br><code>x.__proto__.constructor.name</code> is &#8594 " +
+        x.__proto__.constructor.name +
+        "<br><code>y.__proto__.constructor.name</code> is &#8594 " +
+        y.__proto__.constructor.name +
+        "<br><code>z.__proto__.constructor.name</code> is &#8594 " +
+        z.__proto__.constructor.name +
+        "<br><br><code>x == y</code> is &#8594 " +
+        (x == y) +
+        "<br><code>x === y</code> is &#8594 " +
+        (x === y) +
+        "<br><code>x == z</code> is &#8594 " +
+        (x == z) +
+        "<br><code>x === z</code> is &#8594 " +
+        (x === z) +
+        "<br><br><code>y == z</code> is &#8594 " +
+        (y == z) +
+        "<br><code>y === z</code> is &#8594 " +
+        (y === z);
+    </script>
+  </body>
+</html>
