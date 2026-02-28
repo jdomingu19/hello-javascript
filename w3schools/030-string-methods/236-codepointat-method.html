@@ -1,0 +1,56 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 030 String Methods, 236 codePointAt() Method -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>236 codePointAt() Method | W3Schools | Hello, JavaScript!</title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h2>JavaScript String Methods</h2>
+
+    <h3><code>codePointAt()</code> Method</h3>
+
+    <p>
+      The <code>codePointAt()</code> returns the code point at a specified
+      position in a string.
+    </p>
+
+    <p>
+      The method returns the full value of the Unicode code point in the
+      indicated position; values greater than 65535, up to 1114111 (0x10FFFF):
+    </p>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      let emoji = "🕯️";
+      let textCodePoint = text.codePointAt(9);
+      let emojiCodePoint = emoji.codePointAt(0);
+
+      document.getElementById("demo").innerHTML =
+        "<code>text</code> is &#8594 " +
+        text +
+        "<br><code>emoji</code> is &#8594 " +
+        emoji +
+        "<br><code>text.codePointAt(9)</code> is &#8594 " +
+        textCodePoint +
+        "<br><code>emoji.codePointAt(0)</code> is &#8594 " +
+        emojiCodePoint;
+    </script>
+  </body>
+</html>

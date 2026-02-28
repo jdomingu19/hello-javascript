@@ -1,0 +1,49 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 030 String Methods, 237 at() Method -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>237 at() Method | W3Schools | Hello, JavaScript!</title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h2>JavaScript String Methods</h2>
+
+    <h3><code>at()</code> Method</h3>
+
+    <p>
+      The <code>at()</code> method returns an indexed element from a string:
+    </p>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      let websiteName = "W3Schools";
+      let letter = websiteName.at(2);
+
+      document.getElementById("demo").innerHTML =
+        "<code>websiteName</code> is &#8594 " +
+        websiteName +
+        "<br><code>letter(2)</code> is &#8594 " +
+        letter;
+
+      for (let i = 0; i < websiteName.length; i++) {
+        document.getElementById("demo").innerHTML +=
+          `<br><code>websiteName.at(${i})</code> is &#8594 ${websiteName.at(i)}`;
+      }
+    </script>
+  </body>
+</html>

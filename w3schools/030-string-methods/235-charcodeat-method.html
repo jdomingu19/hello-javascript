@@ -1,0 +1,47 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 030 String Methods, 235 charCodeAt() Method -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>235 charCodeAt() Method | W3Schools | Hello, JavaScript!</title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h2>JavaScript String Methods</h2>
+
+    <h3><code>charCodeAt()</code> Method</h3>
+
+    <p>
+      The <code>charCodeAt()</code> method returns the code of the character at
+      a specified index in a string.
+    </p>
+
+    <p>The method returns a UTF-16 code (an integer between 0 and 65535):</p>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      let char = text.charCodeAt(9);
+
+      document.getElementById("demo").innerHTML =
+        "<code>text</code> is &#8594 " +
+        text +
+        "<br><code>text.charCodeAt(9)</code> is &#8594 " +
+        char;
+    </script>
+  </body>
+</html>
