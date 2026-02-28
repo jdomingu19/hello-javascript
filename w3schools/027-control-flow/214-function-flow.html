@@ -1,0 +1,56 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 027 Control Flow, 214 Function Flow -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>214 Function Flow | W3Schools | Hello, JavaScript!</title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Functions</h1>
+
+    <p>
+      Call a function to compute the product of <code>p1</code> and
+      <code>p2</code> and return the <code>result</code> :
+    </p>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      // Function to compute the product of p1 and p2
+      function myFunction(p1, p2) {
+        return p1 * p2;
+      }
+
+      let x = 4;
+      let y = 3;
+      let result = myFunction(x, y); // 4 * 3 = 12
+
+      document.getElementById("demo").innerHTML =
+        x +
+        " * " +
+        y +
+        " is &#8594 " +
+        result +
+        "<br><code>x</code> is &#8594 " +
+        x +
+        "<br><code>y</code> is &#8594 " +
+        y +
+        "<br><code>result</code> is &#8594 " +
+        result;
+    </script>
+  </body>
+</html>

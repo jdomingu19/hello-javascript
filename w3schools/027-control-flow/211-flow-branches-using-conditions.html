@@ -1,0 +1,51 @@
+<!-- Hello, JavaScript! @jdomingu19 -->
+<!-- W3Schools, 027 Control Flow, 211 Flow Branches Using Conditions -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      211 Flow Branches Using Conditions | W3Schools | Hello, JavaScript!
+    </title>
+    <!-- CSS Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"
+    />
+  </head>
+  <body>
+    <!-- HTML Elements -->
+    <h1>JavaScript Control Flow</h1>
+    <h2>Flow Branches Using Conditions</h2>
+
+    <p>Conditions let you make <b>decisions</b>:</p>
+
+    <p id="demo"></p>
+
+    <footer>
+      Made with '\u{2665}' (♥) by Jesús Domínguez
+      <a href="https://github.com/jdomingu19/">@jdomingu19</a>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+      let age = 21;
+      let text = "Unknown";
+
+      if (age >= 18) {
+        text = "Adult";
+      } else {
+        text = "Minor";
+      }
+
+      document.getElementById("demo").innerHTML =
+        "<code>age</code> is &#8594 " +
+        age +
+        "<br><code>age >= 18</code> is &#8594 " +
+        (age >= 18) +
+        "<br><code>text</code> is &#8594 " +
+        text;
+    </script>
+  </body>
+</html>
