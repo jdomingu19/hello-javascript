@@ -33,7 +33,7 @@ console.log(greeting);
 
 - Comprehensive JavaScript fundamentals and intermediate exercises following Mouredev’s course material.
 
-- Covers a wide range of topics: variables, datatypes, operators, strings, conditionals, arrays, sets, maps, loops, functions, objects, classes, modules, error handling, DOM, debugging, regex, testing, and asynchronous programming.
+- Covers a wide range of topics: `variables`, `datatypes`, `operators`, `strings`, `conditionals`, `arrays`, `sets`, `maps`, `loops`, `functions`, `objects`, `classes`, `modules`, `error handling`, `DOM`, `debugging`, `regex`, `testing`, and `asynchronous programming`.
 
 - Organized step‑by‑step with progressive examples, structured practice files, and documented exercises for consistent learning.
 
