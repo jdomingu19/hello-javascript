@@ -30,7 +30,7 @@
 
 - Organized step‑by‑step with progressive examples, structured practice files, and documented exercises for consistent learning.
 
-### [`playground/`](./playground/)
+#### [`playground/`](./playground/)
 
 - Experimental space for exploring advanced JavaScript concepts.
 
