@@ -23,9 +23,9 @@ console.log(greeting);
 
 #### [`w3schools/`](./w3schools/)
 
-- Introductory HTML, CSS, and JavaScript demos inspired by W3Schools tutorials.
+- Introductory `HTML`, `CSS`, and `JavaScript` demos inspired by W3Schools tutorials.
 
-- Simple examples to practice DOM manipulation and inline scripting.
+- Simple examples to practice `DOM manipulation` and `inline scripting`.
 
 - Foundation exercises to connect JavaScript with web standards.
 
@@ -41,7 +41,7 @@ console.log(greeting);
 
 - Experimental space for exploring advanced JavaScript concepts.
 
-- Includes prototype chains, class inheritance, operator behavior, and DOM manipulation.
+- Includes `prototype chains`, `class inheritance`, `operator behavior`, and `DOM manipulation`.
 
 ## Repository Goals
 
