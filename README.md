@@ -10,7 +10,14 @@
 
 ![header_hello_javascript](https://github.com/user-attachments/assets/6af5ca5d-721c-46fc-8857-05bcbb2a8ba9)
 
-> ```console.log("Hello, JavaScript!");```
+```javascript
+// Define string variable
+let greeting = "Hello, JavaScript!";
+
+// Display variable value on console 
+console.log(greeting);
+```
+> `[Run] Hello, JavaScript! 0.19 ms`
 
 ## Repository Content
 
