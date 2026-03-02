@@ -10,6 +10,8 @@
 
 ![header_hello_javascript](https://github.com/user-attachments/assets/6af5ca5d-721c-46fc-8857-05bcbb2a8ba9)
 
+> ```console.log("Hello, JavaScript!");```
+
 ## Repository Content
 
 #### [`w3schools/`](./w3schools/)
