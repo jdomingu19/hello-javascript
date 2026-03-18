@@ -1,11 +1,11 @@
 <!-- Hello, JavaScript! @jdomingu19 -->
-<!-- W3Schools, 030 String Methods, 238 Bracket Notation -->
+<!-- W3Schools, 030 String Methods, 239 Negative Indexes -->
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>238 Bracket Notation | W3Schools | Hello, JavaScript!</title>
+    <title>239 Negative Indexes | W3Schools | Hello, JavaScript!</title>
     <!-- CSS Styles -->
     <link
       rel="stylesheet"
@@ -16,12 +16,9 @@
     <!-- HTML Elements -->
     <h2>JavaScript String Methods</h2>
 
-    <h3>Bracket Notation</h3>
+    <h3>Negative Indexes</h3>
 
-    <p>
-      The bracket notation <code>[]</code> returns an indexed element from a
-      string:
-    </p>
+    <p>?</p>
 
     <p id="demo"></p>
 
@@ -33,18 +30,18 @@
     <!-- JavaScript Code -->
     <script>
       let websiteName = "W3Schools";
-      let letter = websiteName[2];
+      // let letter = websiteName.at(2);
 
-      document.getElementById("demo").innerHTML =
-        "<code>websiteName</code> is &#8594 " +
-        websiteName +
-        "<br><code>letter</code> is &#8594 " +
-        letter;
+      // document.getElementById("demo").innerHTML =
+      //   "<code>websiteName</code> is &#8594 " +
+      //   websiteName +
+      //   "<br><code>letter(2)</code> is &#8594 " +
+      //   letter;
 
-      for (let i = 0; i < websiteName.length; i++) {
-        document.getElementById("demo").innerHTML +=
-          `<br><code>websiteName[${i}])</code> is &#8594 ${websiteName[i]}`;
-      }
+      // for (let i = 0; i < websiteName.length; i++) {
+      //   document.getElementById("demo").innerHTML +=
+      //     `<br><code>websiteName.at(${i})</code> is &#8594 ${websiteName.at(i)}`;
+      // }
     </script>
   </body>
 </html>
