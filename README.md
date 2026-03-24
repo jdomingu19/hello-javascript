@@ -18,8 +18,6 @@
 
 ## 🔤 JavaScript Code Example
 
-## ⚙️ JavaScript code example
-
 ```javascript
 /**
  * Logs a message to the console with formatted output.
