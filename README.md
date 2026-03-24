@@ -10,6 +10,14 @@ This repository is a structured path to explore JavaScript fundamentals, interme
 
 ![header_hello_javascript](https://github.com/user-attachments/assets/6af5ca5d-721c-46fc-8857-05bcbb2a8ba9)
 
+## ❔ What's JavaScript
+
+> abc 
+>
+> abc
+
+## 🔤 JavaScript Code Example
+
 ```javascript
 // Define string variable
 let greeting = "Hello, JavaScript!";
@@ -19,7 +27,7 @@ console.log(greeting);
 ```
 > `[Run] Hello, JavaScript! 0.19 ms`
 
-## 🧑🏻‍💻 Repository Content
+## 📁 Repository Content
 
 #### [`w3schools/`](./w3schools/)
 
@@ -53,6 +61,6 @@ Use this repository as a stepping stone to transition into `TypeScript`, `Node.j
 
 ## 📝 License
 
-This repository is licensed under the terms of the [Apache License 2.0](LICENSE)
+This repository is licensed under the terms of the [Apache License 2.0](LICENSE). The license grants permission to use, modify, and distribute the code with proper attribution, while ensuring that improvements and extensions remain open and accessible to the community.
 
 > Built with '\u{2665}' (♥) by Jesús Domínguez [@jdomingu19](https://github.com/jdomingu19/)
