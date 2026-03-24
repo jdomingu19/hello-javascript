@@ -29,7 +29,7 @@ console.log(greeting);
 
 ## 📁 Repository Content
 
-#### [`w3schools/`](./w3schools/)
+### → [`w3schools/`](./w3schools/)
 
 Introductory `HTML`, `CSS`, and `JavaScript` demos inspired by W3Schools tutorials.
 
@@ -37,7 +37,7 @@ Simple examples to practice `DOM manipulation` and `inline scripting`.
 
 Foundation exercises to connect JavaScript with web standards.
 
-#### [`mouredev/`](./mouredev/)
+### → [`mouredev/`](./mouredev/)
 
 Comprehensive JavaScript fundamentals and intermediate exercises following Mouredev’s course material.
 
@@ -45,7 +45,7 @@ Covers a wide range of topics: `variables`, `datatypes`, `operators`, `strings`,
 
 Organized step‑by‑step with progressive examples, structured practice files, and documented exercises for consistent learning.
 
-#### [`playground/`](./playground/)
+### → [`playground/`](./playground/)
 
 Experimental space for exploring advanced JavaScript concepts.
 
