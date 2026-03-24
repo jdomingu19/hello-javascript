@@ -27,6 +27,10 @@ console.log(greeting);
 ```
 > `[Run] Hello, JavaScript! 0.19 ms`
 
+## 📖 JavaScript Technical Vocabulary
+
+?
+
 ## 📁 Repository Content
 
 ### → [`w3schools/`](./w3schools/)
