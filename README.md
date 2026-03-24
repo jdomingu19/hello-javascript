@@ -18,14 +18,35 @@
 
 ## 🔤 JavaScript Code Example
 
-```javascript
-// Define string variable
-let greeting = "Hello, JavaScript!";
+## ⚙️ JavaScript code example
 
-// Display variable value on console 
-console.log(greeting);
+```javascript
+/**
+ * Logs a message to the console with formatted output.
+ * @param {Message} msg - The message object to log.
+ */
+function showMessage(msg) {
+  console.log(`[${msg.timestamp.toISOString()}] ${msg.author}: ${msg.text}`);
+}
+
+/**
+ * Represents a message object.
+ * @typedef {Object} Message
+ * @property {number} id - Unique identifier for the message.
+ * @property {string} text - The content of the message.
+ * @property {string} author - The author of the message.
+ * @property {Date} timestamp - The time when the message was created.
+ */
+const greeting = {
+  id: 1,
+  text: "Hello, JavaScript!",
+  author: "Jesús",
+  timestamp: new Date(),
+};
+
+// Call function with message object
+showMessage(greeting);
 ```
-> `[Run] Hello, JavaScript! 0.19 ms`
 
 ## 📖 JavaScript Technical Vocabulary
 
