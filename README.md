@@ -1,4 +1,4 @@
-# Hello, JavaScript!
+# Hello, JavaScript! 👋🏻
 
 ![Static Badge](https://img.shields.io/badge/javascript-ES6+-1C2024?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)
 ![Static Badge](https://img.shields.io/badge/node.js-20+-1C2024?style=for-the-badge&logo=node.js&logoColor=white&labelColor=101010)
@@ -19,7 +19,7 @@ console.log(greeting);
 ```
 > `[Run] Hello, JavaScript! 0.19 ms`
 
-## Repository Content
+## 🧑🏻‍💻 Repository Content
 
 #### [`w3schools/`](./w3schools/)
 
@@ -43,7 +43,7 @@ Experimental space for exploring advanced JavaScript concepts.
 
 Includes `prototype chains`, `class inheritance`, `operator behavior`, and `DOM manipulation`.
 
-## Repository Goals
+## 🎯 Repository Goals
 
 Build a strong foundation by exploring syntax, core concepts, and practical exercises to fully understand the language.
 
@@ -51,7 +51,7 @@ Maintain a structured, reproducible workflow with clear documentation, commit di
 
 Use this repository as a stepping stone to transition into `TypeScript`, `Node.js`, `React`, `React Native`, and `Expo`, aiming to create apps for `iOS`, `Android` and `Web`.
 
-## License
+## 📝 License
 
 This repository is licensed under the terms of the [Apache License 2.0](LICENSE)
 
