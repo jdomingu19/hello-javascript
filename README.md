@@ -16,63 +16,39 @@
 > 
 > JavaScript also extends beyond the browser with environments like Node.js, enabling developers to build backend systems and full-stack applications. Its ecosystem includes frameworks such as React, Angular, and Vue, which simplify development and improve productivity. With strong community support and continuous evolution, JavaScript remains a key tool for creating everything from small interactive features to large-scale applications.
 
-## 🔤 JavaScript Code Example
+### JavaScript Technical Vocabulary
 
-```javascript
-/**
- * Logs a message to the console with formatted output.
- * @param {Message} msg - The message object to log.
- */
-function showMessage(msg) {
-  console.log(`[${msg.timestamp.toISOString()}] ${msg.author}: ${msg.text}`);
-}
+| Term            | Definition                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| Variable        | A named storage for data values, declared with `let`, `const`, or `var`.   |
+| Function        | A reusable block of code that performs a specific task and can return data.|
+| Object          | A collection of key-value pairs used to model complex data structures.     |
+| Array           | An ordered list of values, accessible by index.                            |
+| DOM             | Document Object Model, the interface for interacting with HTML elements.   |
+| Event           | An action or occurrence (like a click or keypress) that can trigger code.  |
+| Scope           | The context in which variables and functions are accessible.               |
+| Promise         | An object representing the eventual completion or failure of an async task.|
+| Template String | A string enclosed by backticks `` ` `` that allows interpolation and multiline text. |
 
-/**
- * Represents a message object.
- * @typedef {Object} Message
- * @property {number} id - Unique identifier for the message.
- * @property {string} text - The content of the message.
- * @property {string} author - The author of the message.
- * @property {Date} timestamp - The time when the message was created.
- */
-const greeting = {
-  id: 1,
-  text: "Hello, JavaScript!",
-  author: "Jesús",
-  timestamp: new Date(),
-};
+## 🗂️ Repository Content
 
-// Call function with message object
-showMessage(greeting);
-```
+### [`w3schools/`](./w3schools/)
 
-## 📖 JavaScript Technical Vocabulary
+This folder contains introductory demos of HTML, CSS, and JavaScript inspired by W3Schools tutorials. It provides simple examples to practice DOM manipulation and inline scripting, serving as foundational exercises that connect JavaScript with core web standards.
 
-?
+> [W3Schools](https://www.w3schools.com/) is a popular online platform that offers accessible tutorials and references for web technologies. It is widely used by beginners and professionals to quickly learn and practice HTML, CSS, and JavaScript through clear examples and interactive exercises.
 
-## 📁 Repository Content
+### [`mouredev/`](./mouredev/)
 
-### → [`w3schools/`](./w3schools/)
+This folder includes comprehensive JavaScript fundamentals and intermediate exercises based on Mouredev’s course material. It covers a wide range of topics such as variables, datatypes, operators, strings, conditionals, arrays, sets, maps, loops, functions, objects, classes, modules, error handling, DOM, debugging, regex, testing, and asynchronous programming. The content is organized step‑by‑step with progressive examples, structured practice files, and documented exercises to ensure consistent learning.
 
-Introductory `HTML`, `CSS`, and `JavaScript` demos inspired by W3Schools tutorials.
+> [MoureDev](https://moure.dev/) is a software developer and educator who creates programming courses and resources for the community. His material emphasizes practical learning, guiding students through JavaScript and other technologies with structured lessons and real-world examples.
 
-Simple examples to practice `DOM manipulation` and `inline scripting`.
+### [`playground/`](./playground/)
 
-Foundation exercises to connect JavaScript with web standards.
+This folder serves as an experimental space for exploring advanced JavaScript concepts. It features examples on prototype chains, class inheritance, operator behavior, and DOM manipulation, offering a flexible environment to test ideas and deepen understanding of the language.
 
-### → [`mouredev/`](./mouredev/)
-
-Comprehensive JavaScript fundamentals and intermediate exercises following Mouredev’s course material.
-
-Covers a wide range of topics: `variables`, `datatypes`, `operators`, `strings`, `conditionals`, `arrays`, `sets`, `maps`, `loops`, `functions`, `objects`, `classes`, `modules`, `error handling`, `DOM`, `debugging`, `regex`, `testing`, and `asynchronous programming`.
-
-Organized step‑by‑step with progressive examples, structured practice files, and documented exercises for consistent learning.
-
-### → [`playground/`](./playground/)
-
-Experimental space for exploring advanced JavaScript concepts.
-
-Includes `prototype chains`, `class inheritance`, `operator behavior`, and `DOM manipulation`.
+> The playground is designed as a creative environment where developers can experiment freely. It encourages exploration of advanced JavaScript features, helping learners strengthen their skills by testing unconventional approaches and building deeper insights into the language.
 
 ## 🎯 Repository Goals
 
