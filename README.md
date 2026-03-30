@@ -8,6 +8,8 @@
 
 **Learning JavaScript from Scratch!** This repository is a structured path to explore JavaScript fundamentals, intermediate concepts, and practical exercises. Each section is designed to reinforce learning through clear examples and reproducible code.
 
+> It is built as a progressive journey where every folder adds new knowledge, guiding learners from the basics of syntax and variables to advanced topics like DOM manipulation, asynchronous programming, and testing. The goal is to provide a clear, enjoyable, and practical roadmap for mastering JavaScript.
+
 ![header_hello_javascript](https://github.com/user-attachments/assets/6af5ca5d-721c-46fc-8857-05bcbb2a8ba9)
 
 ## ❔ What's JavaScript
